@@ -29,7 +29,7 @@ class Config(object):
 
 
 # set the above class object as the configuration for the app
-app.config.from_object('6-app.Config')
+app.config.from_object('7-app.Config')
 
 
 @app.route('/', methods=['GET'], strict_slashes=False)
