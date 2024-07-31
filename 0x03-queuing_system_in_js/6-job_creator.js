@@ -7,8 +7,8 @@ const queue = kue.createQueue();
 // Function to create a job
 const createJob = (phoneNumber, message) => {
   const jobFormat = {
-    phoneNumber,
-    message,
+    phoneNumber: '4153518780',
+    message: 'This is the code to verify your account',
   };
 
   const queueName = 'push_notification_code';
